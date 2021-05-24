@@ -1,0 +1,3 @@
+routeEnhancers:
+  ComponentsApi:
+    type: ComponentsApiResourceEnhancer

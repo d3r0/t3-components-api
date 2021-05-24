@@ -1,0 +1,29 @@
+{
+    "name": "d3r0/components-api",
+    "type": "typo3-cms-extension",
+    "authors": [
+        {
+            "name": "Marcel Arndt",
+            "email": "dim@eml.cc"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "D3r0\\ComponentsApi\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "D3r0\\ComponentsApi\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "typo3-ter/t3-template": "self.version"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "components_api"
+        }
+    }
+}
